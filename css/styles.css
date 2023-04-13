@@ -472,23 +472,23 @@ h6 {
 }
 
 .footer-modal-input {
-    left: 57.5%;
-    right: 24.17%;
-    top: 44.87%;
-    bottom: 42.31%;
+    height: 40px;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    background-color: #2E2F42;
 }
 
 .footer-button-submit {
-    left: 77.5%;
-    right: 11.04%;
-    top: 44.87%;
-    bottom: 42.31%;
-    background: #4D5AE5;
+    height: 40px;
+    background-color: #4D5AE5;
     border-radius: 4px;
     color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #404BBF;
 }
 
 
@@ -726,14 +726,40 @@ h6 {
     text-align: center;
 }
 
-.modal-text {
-    margin-bottom: 4px;
+.modal-icon-person {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.modal-icon-phone,
+.modal-icon-email {
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-wrap {
+    position: relative;
+}
+
+.modal-label {
+    width: 54px;
+    height: 14px;
+    left: 0px;
+    top: 198px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.01em;
     color: #8E8F99;
 }
 
@@ -744,7 +770,7 @@ h6 {
     top: 84px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    margin-bottom: 8px;
+
 }
 
 .modal-input-coment {
@@ -755,6 +781,43 @@ h6 {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     margin-bottom: 8px;
+}
+
+
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+textarea::placeholder {
+    width: 57px;
+    height: 14px;
+    left: 16px;
+    top: 224px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    opacity: 0.5;
+}
+
+.modal-checkbox-text {
+    width: 338px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .modal-button-submit {
@@ -768,5 +831,5 @@ h6 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #FFFFFF;
-
+    border: 0;
 }

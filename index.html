@@ -472,18 +472,43 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <p class="modal-text">Name</p>
-          <input type="text" class="modal-input" />
-          <p class="modal-text">Phone</p>
-          <input type="text" class="modal-input" />
-          <p class="modal-text">Email</p>
-          <input type="text" class="modal-input" />
-          <p class="modal-text">Comment</p>
-          <input
-            type="text"
-            class="modal-input-coment"
-            placeholder="Text input"
-          />
+          <label class="modal-label">Name</label>
+          <div class="input-wrap">
+            <input class="modal-input" type="text" name="username" required />
+            <svg class="modal-icon-person">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+
+          <label class="modal-label">Phone </label>
+          <div class="input-wrap">
+            <input class="modal-input" type="tel" name="phone" required />
+            <svg class="modal-icon-phone">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+
+          <label class="modal-label">Email </label>
+          <div class="input-wrap">
+            <input
+              class="modal-input"
+              type="text"
+              name="email"
+              required
+              autofocus
+            />
+            <svg class="modal-icon-email">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+
+          <div>
+            <label>Comment</label>
+            <textarea name="feedback" rows="5" placeholder="Text input">
+            </textarea>
+          </div>
+          <input type="checkbox" />
+          <label>I accept the terms and conditions of the Privacy Policy</label>
           <button type="submit" class="modal-button-submit">Send</button>
         </form>
       </div>
