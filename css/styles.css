@@ -415,6 +415,7 @@ h6 {
 .footer-text {
     color: #E7E9FC;
     margin-top: 16px;
+    width: 264px;
 }
 
 .footer-title {
@@ -470,8 +471,9 @@ h6 {
     margin-bottom: 16px;
 }
 
-.footer-form {
+.footer-elements {
     display: flex;
+    flex-direction: row;
 }
 
 .footer-input {
