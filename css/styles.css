@@ -481,7 +481,7 @@ h6 {
     min-height: 40px;
     padding: 8px 16px;
     background: #2e2f42;
-    border: 1px solid #ffffff;
+    border: 1px solid #8E8F99;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     margin-right: 24px;
@@ -495,7 +495,7 @@ h6 {
 
 input[type="email"]::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #ffffff;
+    color: #8E8F99;
     opacity: 1;
     /* Firefox */
 }
@@ -859,6 +859,7 @@ input[type="email"]::placeholder {
 textarea {
     resize: none;
     width: 100%;
+    
 }
 
 textarea::placeholder {
@@ -893,10 +894,6 @@ textarea::placeholder {
     padding-bottom: 24px;
     align-items: center;
 }
-
-.modal-label-checkbox {}
-
-
 
 .modal-checkbox {
     appearance: none;
